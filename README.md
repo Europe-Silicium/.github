@@ -1,174 +1,279 @@
 # 🇪🇺 Europe Silicium
 
-## Building an open European silicon platform
+## Building an Open European Silicon Platform
 
-Europe Silicium is a European deep-tech initiative focused on
-high-performance semiconductor technology based on RISC-V and open hardware.
+Europe Silicium is a European deep-tech initiative focused on developing high-performance semiconductor technologies based on **RISC-V** and **open hardware**.
 
-Our long-term ambition is to develop a complete SoC combining:
+Our long-term ambition is to develop a complete SoC platform combining:
 
-- 🧠 High-performance RISC-V CPU
-- 🎮 Programmable GPU
-- 🤖 AI / NPU acceleration
-- ⚡ Vector acceleration
-- 💾 Advanced memory subsystem
-- 🔗 High-performance interconnect
-- 💻 Open compiler and software ecosystem
+* 🧠 **High-performance RISC-V CPU**
+* 🎮 **Programmable GPU**
+* 🤖 **AI / NPU acceleration**
+* ⚡ **Vector acceleration**
+* 💾 **Advanced memory subsystem**
+* 🔗 **High-performance interconnect**
+* 💻 **Open compiler and software ecosystem**
 
 ---
 
-# 🚀 Our Vision
+## 🚀 Our Vision
 
 We want to explore a new approach to semiconductor development:
 
-**Open architecture + artificial intelligence + hardware engineering + European talent.**
+> **Open architecture + artificial intelligence + hardware engineering + European talent**
 
-Our objective is to progressively move from open-source research and simulation
-to FPGA prototypes, ASIC development and eventually advanced semiconductor technologies.
+Our objective is to progressively move from **open-source research and simulation** to **FPGA prototypes**, then to **ASIC development** and, eventually, to more advanced semiconductor technologies.
 
 ```text
 RISC-V
    ↓
-CPU + GPU + NPU
+CPU + GPU + NPU + Vector
    ↓
 SoC Architecture
    ↓
 FPGA Prototype
    ↓
-130nm ASIC
+130nm ASIC Prototype
    ↓
 Advanced Silicon
    ↓
 European Semiconductor Platform
+```
 
-🧩 Technology
+---
 
-We are currently studying and building on several open-source technologies:
+## 🧩 Technology
 
-CPU
+We are studying and building on several open-source technologies and research projects.
 
-RISC-V / BOOM
+### 🧠 CPU
 
-GPU
+* RISC-V
+* Berkeley Out-of-Order Machine (BOOM)
+* Superscalar microarchitecture
+* Branch prediction
+* Speculative execution
+* Cache hierarchy
+* Virtual memory
 
-Vortex GPGPU
+### 🎮 GPU
 
-SoC
+* Vortex GPGPU
+* Programmable GPU architectures
+* General-purpose GPU computing
+* Graphics acceleration
+* Massive parallelism
 
-Chipyard
+### 🤖 AI / NPU
 
-AI
+* Gemmini
+* Matrix accelerators
+* Neural network acceleration
+* Custom NPU architecture research
 
-Gemmini / custom accelerators
+### ⚡ Vector
 
-Vector
+* RISC-V Vector
+* Vector processing
+* HPC and AI acceleration
 
-RISC-V Vector architectures
+### 🔗 SoC
 
-Software
+* Chipyard
+* SoC interconnects
+* NoC (Network-on-Chip)
+* Memory controllers
+* Peripherals and interfaces
 
-Linux / LLVM / MLIR
+### 💻 Software
 
-ASIC
+* Linux
+* LLVM
+* MLIR
+* RISC-V toolchains
+* Runtime systems
+* Acceleration libraries
 
-Yosys / OpenROAD / OpenLane
+### 🔬 ASIC
 
-Verification
+* Yosys
+* OpenROAD
+* OpenLane
+* RTL synthesis
+* Physical design
+* Timing analysis
+* RTL-to-GDSII
 
-Verilator / cocotb / RISC-V tests
+### 🧪 Verification
 
-🛠️ Current Development
+* Verilator
+* cocotb
+* RISC-V Architectural Tests
+* Simulation
+* Functional verification
+* Compliance testing
 
-Our first objective is to build a technically credible prototype.
+---
 
-Phase 1 — Research
-CPU architecture
-GPU architecture
-AI acceleration
-Memory hierarchy
-NoC / interconnect
-Verification
-Phase 2 — FPGA
-CPU prototype
-GPU prototype
-SoC integration
-Linux
-Benchmarks
-Phase 3 — ASIC
-RTL optimization
-Synthesis
-Physical design
-Timing analysis
-130nm prototype
-Silicon validation
-Phase 4 — Advanced Silicon
+# 🛠️ Development Roadmap
 
-Progressively investigate more advanced semiconductor technologies
-and commercial applications.
+Our first objective is to build an **architecturally credible, verifiable and progressively silicon-ready platform**.
 
-🤝 Join Europe Silicium
+## Phase 1 — Research & Architecture
 
-We are looking for people who want to build something ambitious in Europe.
+* Analyze existing RISC-V architectures
+* Study and evolve BOOM
+* CPU architecture
+* GPU architecture
+* NPU architecture
+* Vector architecture
+* Memory hierarchy
+* L1 / L2 / L3 caches
+* NoC and interconnect architecture
+* Memory management
+* Verification methodology
+* Benchmarks and performance metrics
 
-We are particularly interested in:
+## Phase 2 — FPGA Prototype
 
-CPU architects
-RISC-V engineers
-RTL / Verilog / Chisel engineers
-ASIC engineers
-Physical Design engineers
-FPGA engineers
-GPU architects
-AI / NPU engineers
-SoC / NoC engineers
-Verification engineers
-Compiler engineers
-Linux developers
-Researchers
-🌍 Founding Team
+* RISC-V CPU prototype
+* GPU prototype
+* AI / NPU accelerator
+* SoC integration
+* Memory subsystem
+* Linux support
+* Toolchain
+* Functional testing
+* Benchmarking
+* FPGA validation
 
-Europe Silicium is not intended to be only an academic project.
+## Phase 3 — ASIC
 
-Our objective is to build a real European semiconductor company.
+* RTL optimization
+* Logic synthesis
+* Floorplanning
+* Placement and routing
+* Timing analysis
+* Physical verification
+* Sign-off
+* 130nm ASIC prototype
+* Tape-out
+* Silicon testing
+* Silicon validation
+
+## Phase 4 — Advanced Silicon
+
+* Explore more advanced semiconductor technologies
+* Optimize the architecture
+* Improve performance per watt
+* Integrate CPU / GPU / NPU
+* Improve the memory subsystem
+* Develop commercial prototypes
+* Explore industrial applications
+
+---
+
+# 🤝 Join Europe Silicium
+
+We want to build a team capable of developing the next generation of silicon technologies in Europe.
+
+We are particularly interested in people with expertise in:
+
+* 🧠 CPU Architecture
+* RISC-V
+* RTL / Verilog / SystemVerilog / Chisel
+* ASIC Design
+* Physical Design
+* FPGA
+* GPU Architecture
+* AI / NPU
+* SoC / NoC
+* Memory Systems
+* Verification
+* Compilers
+* LLVM / MLIR
+* Linux
+* Embedded Systems
+* Computer Architecture
+* Semiconductor Engineering
+* Research
+
+---
+
+# 🌍 Founding Team
+
+**Europe Silicium is not intended to remain solely an academic or experimental project.**
+
+Our long-term objective is to build a **European semiconductor company**.
 
 The first professionals joining the project may have the opportunity to become part of the founding team and participate in building:
 
-the technology → the team → the intellectual property → the company.
+> **the technology → the team → the intellectual property → the company**
 
-We are looking for people who want to contribute not only code,
-but also architecture, ideas, decisions and long-term vision.
+We are looking for people who want to contribute not only code, but also:
 
-🧠 Open Development
+* architecture;
+* research;
+* hardware design;
+* verification;
+* technical decisions;
+* technology strategy;
+* team building;
+* long-term vision.
 
-We believe that open collaboration can accelerate semiconductor innovation.
+Participation in the founding team and potential equity arrangements will be defined progressively with the initial contributors and partners, in accordance with the company's future legal structure.
 
-The community will be able to:
+---
 
-discuss architecture
-contribute code
-propose improvements
-develop benchmarks
-test prototypes
-identify bugs
-contribute documentation
-participate in technical discussions
-📢 Community
+# 🧠 Open Development
 
-Follow Europe Silicium:
-LinkedIn: Europe Silicium https://www.linkedin.com/company/europe-silicium
-X: @EuropeSilicium
-https://x.com/EuropeSilicium/all
-🇪🇺 Build the Team
-🧠 Build the Architecture
-🔬 Build the Silicon
-Europe Silicium
+We believe that open collaboration can accelerate innovation in semiconductor development.
 
+The Europe Silicium community will be able to:
 
-# 🇪🇺 Europe Silicium
+* discuss architecture;
+* propose improvements;
+* develop RTL;
+* develop software and tools;
+* create benchmarks;
+* test prototypes;
+* identify and fix bugs;
+* improve documentation;
+* experiment on FPGA;
+* contribute to verification;
+* participate in technical discussions;
+* explore new architectures.
+
+Our objective is to progressively build an **open ecosystem around architecture, hardware, software and semiconductor research**.
+
+---
+
+# 📢 Community
+
+Follow and join Europe Silicium:
+
+* [LinkedIn — Europe Silicium](https://www.linkedin.com/company/europe-silicium/)
+* [X — @EuropeSilicium](https://x.com/EuropeSilicium)
+* [GitHub — Europe Silicium](https://github.com/Europe-Silicium)
+
+---
+
+# 🇪🇺 Our Mission
+
+> 🧠 **Build the Team**
+> 🏗️ **Build the Architecture**
+> 💻 **Build the Software**
+> ⚙️ **Build the Hardware**
+> 🧪 **Validate the Silicon**
+> 🇪🇺 **Build Europe's Semiconductor Platform**
+
+---
+
+# 🇫🇷 Europe Silicium
 
 ## Construire une plateforme européenne ouverte pour les semi-conducteurs
 
-**Europe Silicium** est une initiative européenne de deep-tech dédiée au développement de technologies de semi-conducteurs haute performance, fondées sur **RISC-V** et le **matériel ouvert**.
+Europe Silicium est une initiative européenne de deep-tech dédiée au développement de technologies de semi-conducteurs haute performance, fondées sur **RISC-V** et le **matériel ouvert**.
 
 Notre ambition à long terme est de développer une plateforme SoC complète combinant :
 
@@ -195,15 +300,15 @@ RISC-V
    ↓
 CPU + GPU + NPU + Vector
    ↓
-SoC Architecture
+Architecture SoC
    ↓
-FPGA Prototype
+Prototype FPGA
    ↓
-130nm ASIC Prototype
+Prototype ASIC 130 nm
    ↓
-Advanced Silicon
+Silicium avancé
    ↓
-European Semiconductor Platform
+Plateforme européenne de semi-conducteurs
 ```
 
 ---
@@ -226,7 +331,7 @@ Nous étudions et développons notre architecture en nous appuyant sur plusieurs
 
 * Vortex GPGPU
 * Architectures GPU programmables
-* Compute workloads
+* Calcul général sur GPU
 * Accélération graphique
 * Parallélisme massif
 
@@ -235,29 +340,30 @@ Nous étudions et développons notre architecture en nous appuyant sur plusieurs
 * Gemmini
 * Accélérateurs matriciels
 * Accélération des réseaux neuronaux
-* Exploration d'architectures NPU personnalisées
+* Recherche sur des architectures NPU personnalisées
 
-### ⚡ Vector
+### ⚡ Vectoriel
 
 * RISC-V Vector
-* Vector Processing
+* Traitement vectoriel
 * Accélération HPC et IA
 
 ### 🔗 SoC
 
 * Chipyard
-* Interconnexion SoC
+* Interconnexions SoC
 * NoC (Network-on-Chip)
 * Contrôleurs mémoire
 * Périphériques et interfaces
 
-### 💻 Software
+### 💻 Logiciel
 
 * Linux
 * LLVM
 * MLIR
-* Compilateurs RISC-V
-* Runtime et bibliothèques d'accélération
+* Toolchains RISC-V
+* Systèmes runtime
+* Bibliothèques d'accélération
 
 ### 🔬 ASIC
 
@@ -265,26 +371,26 @@ Nous étudions et développons notre architecture en nous appuyant sur plusieurs
 * OpenROAD
 * OpenLane
 * Synthèse RTL
-* Physical Design
-* Timing Analysis
+* Conception physique
+* Analyse temporelle
 * RTL-to-GDSII
 
-### 🧪 Verification
+### 🧪 Vérification
 
 * Verilator
 * cocotb
 * RISC-V Architectural Tests
 * Simulation
 * Vérification fonctionnelle
-* Vérification de conformité
+* Tests de conformité
 
 ---
 
-# 🛠️ Développement
+# 🛠️ Feuille de route
 
-Notre premier objectif est de construire une **architecture techniquement crédible, vérifiable et progressivement réalisable en silicium**.
+Notre premier objectif est de construire une **plateforme architecturalement crédible, vérifiable et progressivement réalisable en silicium**.
 
-## Phase 1 — Research & Architecture
+## Phase 1 — Recherche & Architecture
 
 * Analyse des architectures RISC-V existantes
 * Étude et évolution de BOOM
@@ -293,20 +399,20 @@ Notre premier objectif est de construire une **architecture techniquement crédi
 * Architecture NPU
 * Architecture vectorielle
 * Hiérarchie mémoire
-* Cache L1 / L2 / L3
-* NoC / interconnexion
+* Caches L1 / L2 / L3
+* Architecture NoC et interconnexion
 * Gestion de la mémoire
 * Méthodologie de vérification
 * Benchmarks et métriques de performance
 
-## Phase 2 — FPGA Prototype
+## Phase 2 — Prototype FPGA
 
-* Processeur RISC-V
+* Prototype CPU RISC-V
 * Prototype GPU
 * Accélérateur IA / NPU
 * Intégration SoC
-* Mémoire
-* Linux
+* Sous-système mémoire
+* Support Linux
 * Toolchain
 * Tests fonctionnels
 * Benchmarks
@@ -317,16 +423,16 @@ Notre premier objectif est de construire une **architecture techniquement crédi
 * Optimisation RTL
 * Synthèse logique
 * Floorplanning
-* Placement & Routing
+* Placement et routage
 * Analyse temporelle
 * Vérification physique
 * Sign-off
 * Prototype ASIC 130 nm
 * Tape-out
-* Test du silicium
-* Silicon validation
+* Tests du silicium
+* Validation du silicium
 
-## Phase 4 — Advanced Silicon
+## Phase 4 — Silicium avancé
 
 * Exploration de technologies de fabrication plus avancées
 * Optimisation de l'architecture
@@ -340,42 +446,42 @@ Notre premier objectif est de construire une **architecture techniquement crédi
 
 # 🤝 Rejoindre Europe Silicium
 
-Nous voulons construire une équipe capable de développer une nouvelle génération de technologies silicium en Europe.
+Nous voulons construire une équipe capable de développer la prochaine génération de technologies silicium en Europe.
 
 Nous recherchons notamment des personnes ayant des compétences dans les domaines suivants :
 
-* 🧠 CPU Architecture
+* 🧠 Architecture CPU
 * RISC-V
 * RTL / Verilog / SystemVerilog / Chisel
-* ASIC Design
+* Conception ASIC
 * Physical Design
 * FPGA
-* GPU Architecture
-* AI / NPU
+* Architecture GPU
+* IA / NPU
 * SoC / NoC
-* Memory Systems
-* Verification
-* Compilers
+* Systèmes mémoire
+* Vérification
+* Compilateurs
 * LLVM / MLIR
 * Linux
-* Embedded Systems
-* Computer Architecture
-* Semiconductor Engineering
-* Research
+* Systèmes embarqués
+* Architecture des ordinateurs
+* Ingénierie des semi-conducteurs
+* Recherche
 
 ---
 
-# 🌍 Founding Team
+# 🌍 Équipe fondatrice
 
 **Europe Silicium n'a pas vocation à rester uniquement un projet académique ou expérimental.**
 
-Notre objectif est de construire à terme une **véritable entreprise européenne de semi-conducteurs**.
+Notre objectif à long terme est de construire une **entreprise européenne de semi-conducteurs**.
 
-Les premiers professionnels qui rejoindront le projet pourront participer à la construction de :
+Les premiers professionnels qui rejoindront le projet pourront avoir l'opportunité de participer à l'équipe fondatrice et de contribuer à construire :
 
-**la technologie → l'équipe → la propriété intellectuelle → l'entreprise**
+> **la technologie → l'équipe → la propriété intellectuelle → l'entreprise**
 
-Nous recherchons des personnes souhaitant contribuer non seulement au développement logiciel ou matériel, mais également à :
+Nous recherchons des personnes souhaitant contribuer non seulement au code, mais également à :
 
 * l'architecture ;
 * la recherche ;
@@ -386,34 +492,34 @@ Nous recherchons des personnes souhaitant contribuer non seulement au développe
 * la construction de l'équipe ;
 * la vision à long terme.
 
-Les modalités de participation au capital et à l'équipe fondatrice seront définies progressivement avec les premiers contributeurs et partenaires du projet.
+La participation à l'équipe fondatrice et les éventuelles modalités de participation au capital seront définies progressivement avec les premiers contributeurs et partenaires, conformément à la future structure juridique de l'entreprise.
 
 ---
 
-# 🧠 Open Development
+# 🧠 Développement ouvert
 
 Nous croyons que la collaboration ouverte peut accélérer l'innovation dans le domaine des semi-conducteurs.
 
-La communauté Europe Silicium pourra contribuer à :
+La communauté Europe Silicium pourra :
 
 * discuter de l'architecture ;
 * proposer des améliorations ;
-* développer du code RTL ;
-* développer des outils logiciels ;
+* développer du RTL ;
+* développer des logiciels et des outils ;
 * créer des benchmarks ;
 * tester des prototypes ;
 * identifier et corriger des bugs ;
-* développer la documentation ;
+* améliorer la documentation ;
 * expérimenter sur FPGA ;
 * contribuer à la vérification ;
 * participer aux discussions techniques ;
 * explorer de nouvelles architectures.
 
-Notre objectif est de construire progressivement un **écosystème ouvert autour de l'architecture, du matériel, du logiciel et de la recherche**.
+Notre objectif est de construire progressivement un **écosystème ouvert autour de l'architecture, du matériel, du logiciel et de la recherche dans le domaine des semi-conducteurs**.
 
 ---
 
-# 📢 Community
+# 📢 Communauté
 
 Suivez et rejoignez Europe Silicium :
 
@@ -423,18 +529,17 @@ Suivez et rejoignez Europe Silicium :
 
 ---
 
-# 🇪🇺 Notre objectif
+# 🇪🇺 Notre mission
 
-> 🧠 **Build the Team**
-> 🔬 **Build the Architecture**
-> 💻 **Build the Software**
-> ⚙️ **Build the Hardware**
-> 🧪 **Validate the Silicon**
-> 🇪🇺 **Build Europe's Semiconductor Platform**
+> 🧠 **Construire l'équipe**
+> 🏗️ **Construire l'architecture**
+> 💻 **Construire le logiciel**
+> ⚙️ **Construire le matériel**
+> 🧪 **Valider le silicium**
+> 🇪🇺 **Construire la plateforme européenne de semi-conducteurs**
 
 ---
 
 **Europe Silicium**
 
 *Open architecture. European engineering. Silicon innovation.*
-
